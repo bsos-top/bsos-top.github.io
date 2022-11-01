@@ -7,13 +7,16 @@
   <body>
     <script type="text/javascript" src="./axios.min.js"></script>
     <script type="text/javascript">
-    	axios.get('https://api.winstonkenny.cn/ip').then(function(res){
+    	axios.get('//api.winstonkenny.cn/ip').then(function(res){
     		console.log(res);
     	}).catch(function(err){console.log(err)})
-    	axios.get('https://api.matismart.net/api/v2/zones').then(function(res){
+    	axios.get('//api.matismart.net/api/v2/zones').then(function(res){
     		console.log(res);
     	}).catch(function(err){console.log(err)})
-    	axios.get('https://api.bsos.top/api/v2/zones').then(function(res){
+    	axios.get('//api.bsos.top/api/v2/zones').then(function(res){
+    		console.log(res);
+    	}).catch(function(err){console.log(err)})
+    	axios.get('http://api.bsos.top/api/v2/zones').then(function(res){
     		console.log(res);
     	}).catch(function(err){console.log(err)})
     </script>
