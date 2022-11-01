@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>开放平台介绍 | WinstonKenny开放平台</title>
-    <meta name="generator" content="VuePress 1.8.2">
-    <link rel="icon" href="/docs/logo.png">
-    <meta name="description" content="联系人Kenny">
   </head>
   <body>
+    <script type="text/javascript" src="./axios.min.js"></script>
+    <script type="text/javascript">
+    	axios.get('api.winstonkenny.cn/ip').then(function(res){
+    		console.log(response);
+    	}).catch(function(err){console.log(err)})
+    </script>
     <h1>BSOS-TOP</h1>
   </body>
 </html>
